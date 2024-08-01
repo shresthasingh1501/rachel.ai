@@ -1,4 +1,6 @@
-# Project Setup
+# Rachel.ai
+
+![logo](https://github.com/user-attachments/assets/a1b12de6-fb23-4014-8956-8e69bcd17673)
 
 ## Setup Process
 
