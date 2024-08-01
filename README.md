@@ -2,6 +2,12 @@
 
 ![logo](https://github.com/user-attachments/assets/a1b12de6-fb23-4014-8956-8e69bcd17673)
 
+
+Your AI Paralegal Assistant
+Revolutionize your legal operations with our open-source AI 
+assistant. Ingest, summarize, question, and analyze thousands of case 
+files with ease.
+        
 ## Setup Process
 
 1. **Install Dependencies**
