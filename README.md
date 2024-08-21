@@ -7,6 +7,8 @@ Your AI Paralegal Assistant ,
 Revolutionize your legal operations with our open-source AI 
 assistant. Ingest, summarize, question, and analyze thousands of case 
 files with ease.
+
+## Document Processing    
 ```mermaid
 graph LR
     subgraph "Document Processing"
@@ -15,7 +17,16 @@ graph LR
         C --> D[ChromaDB Vector Storage]
         D --> E{Organize into Collections Cases}
     end
-```        
+```
+## Query and Answer
+```mermaid
+graph LR
+    A[User Queries the Database] --> B(BGE-en-small Question Embedding)
+    B --> C[ChromaDB Similarity Search]
+    C --> D{Retrieve Relevant Chunk}
+    D --> E[LLaMA 3.1 Answer Generation with Context]
+    E --> F[Precise Answer & Source Reference]
+```
 ## Setup Process
 
 1. **Install Dependencies**
