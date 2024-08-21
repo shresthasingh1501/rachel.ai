@@ -15,16 +15,6 @@ graph LR
         C --> D[ChromaDB Vector Storage]
         D --> E{Organize into Collections Cases}
     end
-    
-    subgraph "Query and Answer"
-        F[User Queries the Database] --> G(BGE-en-small Question Embedding)
-        G --> H[ChromaDB Similarity Search]
-        H --> I{Retrieve Relevant Chunk}
-        I --> J[LLaMA 3.1 Answer Generation with Context]
-        J --> K[Precise Answer & Source Reference]
-    end
-    
-    E --> F
 ```        
 ## Setup Process
 
